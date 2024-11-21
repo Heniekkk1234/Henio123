@@ -2,9 +2,9 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Twoje Imię i Nazwisko">
+    <meta name="author" content="Henryk Piszczek">
     <meta name="description" content="Strona hurtowni z akcesoriami fryzjerskimi">
-    <title>Wykonał KOWALSKI</title>
+    <title>Wykonał Piszczek</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -79,8 +79,8 @@
     
     <!-- Link do menu -->
     <footer class="footer">
-        <a href="menu_kowalski.html">Przejdź do menu</a><br>
-        © Twoje Imię i Nazwisko
+        <a href="menu_piszczek.html">Przejdź do menu</a><br>
+        © Henryk Piszczek
     </footer>
 </body>
 </html>
