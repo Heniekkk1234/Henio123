@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Henryk Piszczek">
-    <meta name="description" content="Formularz kontaktowy dla poczty">
+    <meta name="description" content="Kontaktowy adres e-mail">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <style>
@@ -16,7 +16,7 @@
             text-align: center;
             color: #333;
         }
-        form {
+        .email-container {
             max-width: 500px;
             margin: auto;
             padding: 20px;
@@ -24,47 +24,29 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        label {
+        .email-container p {
+            font-size: 18px;
+            text-align: center;
+        }
+        .email-container a {
             display: block;
-            margin: 10px 0 5px;
-            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+            color: #007bff;
+            font-size: 20px;
+            text-decoration: none;
         }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
+        .email-container a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Skontaktuj się z nami</h1>
-    <form action="mailto:henrykpiszczek39@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Twoje imię:</label>
-        <input type="text" id="name" name="name" placeholder="Wpisz swoje imię" required>
-
-        <label for="email">Twój e-mail:</label>
-        <input type="email" id="email" name="email" placeholder="Wpisz swój e-mail" required>
-
-        <label for="message">Twoja wiadomość:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Wpisz swoją wiadomość" required></textarea>
-
-        <button type="submit">Wyślij wiadomość</button>
-    </form>
+    <h1>Skontaktuj się ze mną</h1>
+    <div class="email-container">
+        <p>Możesz wysłać mi wiadomość na mój adres e-mail:</p>
+        <p><strong>henrykpiszczek39@gmail.com</strong></p>
+        <a href="mailto:henrykpiszczek39@gmail.com">Kliknij tutaj, aby wysłać wiadomość</a>
+    </div>
 </body>
 </html>
