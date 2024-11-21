@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Twoje Imię i Nazwisko">
+    <meta name="description" content="Strona hurtowni z akcesoriami fryzjerskimi">
+    <title>Wykonał KOWALSKI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .line {
+            border-top: 3px solid #000;
+            margin: 10px 0;
+        }
+        .logo-container {
+            text-align: center;
+            border: 6px solid yellow;
+            width: 700px;
+            height: 200px;
+            margin: auto;
+        }
+        .logo-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content div {
+            width: 30%;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Główna sekcja -->
+    <header>
+        <h1 style="color: red; font-size: 2em; text-decoration: underline; font-style: italic;">Nazwa hurtowni</h1>
+        <p>Wszystko, czego potrzebujesz w jednym miejscu</p>
+    </header>
+    
+    <div class="line"></div>
+    
+    <!-- Sekcja logo -->
+    <div class="logo-container">
+        <img src="logo_nazwisko.jpg" alt="Logo hurtowni">
+    </div>
+    <div class="content">
+        <div>Opis hurtowni</div>
+        <div>Logo</div>
+        <div>Opis hurtowni</div>
+    </div>
+
+    <div class="line"></div>
+    
+    <!-- Wyceny -->
+    <section>
+        <h2>Nasze wyceny</h2>
+        <ul>
+            <li>Suszarki do włosów: 150 zł</li>
+            <li>Nożyczki fryzjerskie: 100 zł</li>
+            <li>Grzebienie: 20 zł</li>
+            <li>Farby do włosów: 50 zł</li>
+            <li>Prostownice: 200 zł</li>
+        </ul>
+    </section>
+
+    <div class="line"></div>
+    
+    <!-- Link do menu -->
+    <footer class="footer">
+        <a href="menu_kowalski.html">Przejdź do menu</a><br>
+        © Twoje Imię i Nazwisko
+    </footer>
+</body>
+</html>
