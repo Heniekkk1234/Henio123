@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Henryk Piszczek">
+    <meta name="description" content="Tabela produktów hurtowni">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela produktów</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #d9f1ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nasze produkty</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Lp.</th>
+                <th>Produkt</th>
+                <th>Cena (zł)</th>
+                <th>Dostępność</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Suszarka do włosów</td>
+                <td>150</td>
+                <td>Dostępna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nożyczki fryzjerskie</td>
+                <td>100</td>
+                <td>Dostępna</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Grzebień fryzjerski</td>
+                <td>20</td>
+                <td>Brak</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Farba do włosów</td>
+                <td>50</td>
+                <td>Dostępna</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Prostownica</td>
+                <td>200</td>
+                <td>Dostępna</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
